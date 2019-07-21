@@ -5,16 +5,16 @@
   "main": "app.js",
   "scripts": {
     "test": "_mocha --recursive \"test/**/*.test.js\"",
-    "coverage": "nyc --reporter=html mocha --recursive",
+    "coverage": "nyc --reporter=html npm run test",
     "coverage-check": "nyc check-coverage --lines 100 --functions 100 --statements 100 --branches 100 --reporter=html mocha --recursive"
   },
   "dependencies": {
-    "aws-sdk": "2.443.0"
+    "aws-sdk": "2.496.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
     "mocha": "6.1.2",
-    "nyc": "14.0.0",
+    "nyc": "14.1.1",
     "rewire": "4.0.1"
   },
   "directories": {
