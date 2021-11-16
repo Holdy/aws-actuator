@@ -9,7 +9,7 @@
     "coverage-check": "nyc check-coverage --lines 100 --functions 100 --statements 100 --branches 100 --reporter=html mocha --recursive"
   },
   "dependencies": {
-    "aws-sdk": "2.496.0"
+    "aws-sdk": "2.814.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
